@@ -26,7 +26,6 @@ class Artist
     song = Song.new(song)
     song.artist = self
     song.name = song_name
-    binding.pry
   end
 
   def song_count
