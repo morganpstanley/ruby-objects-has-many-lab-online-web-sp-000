@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-  attr_accessor :name
+  attr_accessor :name, songs
 
   @@song_total = 0
 
