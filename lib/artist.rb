@@ -24,6 +24,7 @@ class Artist
     song = Song.new(song)
     song.artist = self.name
     @songs << song
+    binding.pry
     @@song_total += 1
   end
 
